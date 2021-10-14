@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+EXPOSE 19132/udp
+
 RUN apt update
 
 RUN apt install -y zsh
